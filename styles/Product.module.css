@@ -1,0 +1,96 @@
+.container{
+    padding-top: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #93e3a9;
+}
+
+.containerLeft{
+
+}
+
+.image{
+    border-radius: 20px;
+}
+
+.containerRight{
+    padding: 40px;
+}
+
+.pizzaName{
+
+}
+
+.pizzaPrice{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pizzaDesc{
+
+}
+
+.pizzaChoose{
+    margin: 10px 0px;
+}
+
+.pizzaList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pizzaListItem{
+    position: relative;
+    cursor: pointer;
+}
+
+.itemLabel{
+    background-color: #93e3a9;
+    color: white;
+    padding: 2px;
+    font-size: 13px;
+    position: absolute;
+    top: -30%;
+    right: -80%;
+    border-radius: 13px;
+}
+
+.pizzaListExtra{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantity{
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+}
+
+.pizzaAdd{
+    height: 60px;
+    font-size: 15px;
+    width: 150px;
+    color: white;
+    display: flex;
+    background-color: #93e3a9;
+    padding-top: 15px;
+    padding-left: 10px;
+    border: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.pizzaAdd:hover{
+    scale: 1.05;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.pizzaAdd div{
+    padding-top: 5px;
+}

@@ -1,0 +1,62 @@
+.container{
+    padding-top: 15vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title{
+    color: #273137;
+    font-size: 3rem;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.cardMain{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #2a2323;
+}
+
+.cardImage{
+    padding: 20px;
+}
+
+.image{
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.cardInfo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+
+}
+
+.cardName{
+
+}
+
+.cardDesc{
+
+}
+
+
+.cardPrice{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #93e3a9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
